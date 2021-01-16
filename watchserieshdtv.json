@@ -31,9 +31,9 @@
     "drill_down_path_attr": "data-video",
     "is_torrent": false,
     "is_direct": true,
-    "links_container_path": "script:containsdata(playerInstance)",
-    "link_path": "",
-    "link_path_attr": "",
+    "links_container_path": "div#list-server-more ul.list-server-items",
+    "link_path": "li[data-video]",
+    "link_path_attr": "data-video",
     "title_path": "/title",
     "title_path_attr": "",
     "details_path": "|title_path|",
@@ -48,6 +48,6 @@
     "quality_path_attr": "",
     "info_path": "|title_path|",
     "info_path_attr": "",
-    "link_regex": "file: '(.+?)'",
+    "link_regex": "",
     "link_ignore": ["http://error.com"]
   }
