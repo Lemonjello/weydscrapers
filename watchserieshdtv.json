@@ -49,5 +49,4 @@
     "info_path": "|title_path|",
     "info_path_attr": "",
     "link_regex": "",
-    "link_ignore": ["http://error.com"]
   }
